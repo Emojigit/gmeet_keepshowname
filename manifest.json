@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Keep Showing Member's name in google meetings",
+  "version": "0.0.1",
+  "description": "Keep Showing Member's name in google meetings",
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["https://meet.google.com/*"]
+  }],
+  "icons": {
+    "48": "icons/48px-Antu_meeting-attending-tentative.svg.png",
+    "96": "icons/96px-Antu_meeting-attending-tentative.svg.png"
+  }
+}
